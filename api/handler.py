@@ -7,7 +7,7 @@ from rossmann.Rossmann import Rossmann #import: é o nome da classe
 
 
 #loading model
-model = pickle.load( open('C:/Users/Will/repos/comunidadeds/ds_em_producao/api/handler.pkl', 'rb'))  
+model = pickle.load( open('C:/Users/Will/repos/comunidadeds/ds_em_producao/api/rossmann.pkl', 'rb'))  
 
 # inicializando a API
 app = Flask(__name__)
